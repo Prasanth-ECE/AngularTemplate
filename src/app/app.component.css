@@ -1,0 +1,68 @@
+body .opt-side {
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.sidebar-panel{
+    width: 230px;
+    background-image: url('/assets/bg-5.8ab7cf72d852c2ae538c.jpg');
+    background-position: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.sidebar-panel::before{
+    content: '';
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-image: linear-gradient(58deg,#f44336,#673ab7);
+	opacity: .8;
+}
+
+.text-center {
+    text-align: center;
+}
+.branding {
+    height: 40px;
+    padding: 1rem 0;
+    position: relative;
+}
+.branding h2 {
+    margin: 0;
+    font-size: 1.8rem;
+}
+body .main-nav {
+    height: calc(100% - 40px);
+}
+.user-pro-wrap {
+    padding: 1rem;
+    position: relative;
+    border-top: 2px solid hsla(0,0%,100%,.1);
+    border-bottom: 2px solid hsla(0,0%,100%,.1);
+}
+.user-i {
+    z-index: 99;
+    position: relative;
+}
+.user-profile-thumb img {
+    border: 4px solid hsla(0,0%,100%,.3);
+}
+.rad-full {
+    border-radius: 100%;
+}
+.most-link {
+    display: inline-block;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 12px;
+}
+.mb-1 {
+    margin-bottom: 1rem;
+}
+.container{
+    margin: 25px
+}

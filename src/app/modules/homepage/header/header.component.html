@@ -1,0 +1,21 @@
+<mat-toolbar color="primary">
+  <mat-toolbar-row fxLayout="row">
+      <div fxFlex="none" fxFlex.sm fxFlex.xs>
+        <button mat-mini-fab color="primary" (click)="toggleMenu()">
+    <mat-icon class="mat-icon material-icons" role="img" aria-hidden="true">menu</mat-icon>
+  </button>
+      </div>
+  <div class="searchbar" fxFlex fxHide.sm fxHide.xs>
+    <mat-icon class="mat-icon material-icons" role="img" aria-hidden="true">search</mat-icon>
+    <input type="text" autofocus />
+  </div>
+  <div fxFlex="nogrow" class="icons">
+  <mat-icon class="mat-icon material-icons" role="img" aria-hidden="true" *ngIf="!screen" (click)="cancelfullscreen()">fullscreen_exit</mat-icon>
+  <mat-icon class="mat-icon material-icons" role="img" aria-hidden="true"  *ngIf="screen" (click)="fullscreen()">fullscreen</mat-icon>
+  <mat-icon class="mat-icon material-icons" role="img" aria-hidden="true">message</mat-icon>
+  <mat-icon class="mat-icon material-icons" role="img" aria-hidden="true">reorder</mat-icon>
+  <mat-icon class="mat-icon material-icons" role="img" aria-hidden="true">notifications</mat-icon>
+  <mat-icon class="mat-icon material-icons" role="img" aria-hidden="true">person</mat-icon>
+  </div>
+  </mat-toolbar-row>
+</mat-toolbar>

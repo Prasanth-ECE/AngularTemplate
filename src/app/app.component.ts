@@ -6,5 +6,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';
+  navBarOpen:boolean = true;
+  expandv:boolean = false;
+
+  toggle(){
+    this.navBarOpen = !this.navBarOpen;
+  }
+  typesOfShoes = ['Boots', 'Clogs', 'Loafers', 'Moccasins', 'Sneakers'];
+  expand(){
+    this.expandv = !this.expandv;
+  }
 }

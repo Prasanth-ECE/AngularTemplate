@@ -1,0 +1,36 @@
+.example-card {
+    /*max-width: 400px;*/
+  }
+  
+  .example-header-image {
+    background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+    background-size: cover;
+  }
+.m-gap{
+      margin-bottom: 1.5rem; 
+  }
+.p-gap:first-child{
+    padding-left: 0;
+}
+.p-gap:last-child{
+    padding-right: 0;
+}
+.p-gap{
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+.grad-blue{
+    background: linear-gradient(58deg,#f44336,#673ab7);
+    color: #fff;
+}
+.grad-green {
+    background: linear-gradient(58deg,#009688,#673ab7);
+    color: #fff;
+}
+.grad-red {
+    background: linear-gradient(58deg,#f44336,#673ab7);
+    color: #fff;
+}
+.mat-card{
+    background: inherit;
+}

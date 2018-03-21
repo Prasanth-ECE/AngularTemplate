@@ -1,0 +1,27 @@
+.searchbar{
+    position: relative;
+    margin: 0 0 0 15px;
+}
+.searchbar input {
+    font-size: 1rem;
+    padding: .95rem .75rem;
+    z-index: 2;
+    cursor: text;
+    text-indent: 30px;
+    border: none;
+    background: transparent;
+    width: auto;
+    outline: 0;
+    border: 1px solid #292727;
+}
+.searchbar .material-icons {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    margin-top: -.75rem;
+    color: rgba(0,0,0,.87);
+}
+.icons{height: 26px;}
+.icons .material-icons{
+    margin: 0 0 0 15px;
+}
